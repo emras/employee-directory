@@ -60,7 +60,6 @@ def seed():
 	    i+=1
 
 manager.add_command('db', MigrateCommand)
-manager.add_command('seed', seed())
 if __name__ == '__main__':
   manager.run()
 
